@@ -1,0 +1,21 @@
+Accuracy: 0.9891
+Precision: 0.9776
+Recall: 1.0000
+F1 Score: 0.9887
+Matthews Correlation Coefficient: 0.9785
+Balanced Accuracy: 0.9897
+Area Under the Precision-Recall Curve: 0.9776
+Area Under the ROC Curve: 0.9897
+
+Confusion Matrix:
+[[333,   7],
+ [  0, 305]]
+Classification Report:
+              precision    recall  f1-score   support
+
+  Legitimate       1.00      0.98      0.99       340
+    Phishing       0.98      1.00      0.99       305
+
+    accuracy                           0.99       645
+   macro avg       0.99      0.99      0.99       645
+weighted avg       0.99      0.99      0.99       645
